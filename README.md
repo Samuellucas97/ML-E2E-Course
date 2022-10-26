@@ -50,7 +50,7 @@ You could check your Sckit-learn lib version, for example, using the following c
 Since you have installed software requirements, you need to execute on the terminal the following command:
 
 ```
-$ python server.py
+$ ./run.sh
 ```
 
 A Flask server will be running on [http://127.0.0.1:5000](http://127.0.0.1:5000).
