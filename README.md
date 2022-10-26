@@ -54,3 +54,5 @@ $ ./run.sh
 ```
 
 A Flask server will be running on [http://127.0.0.1:5000](http://127.0.0.1:5000).
+
+You can use  the `/api/predictor/` API endpoint to predict rent. We show an example about how to use this in `/test/api.ipynb`.
