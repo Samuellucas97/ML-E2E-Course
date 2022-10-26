@@ -40,11 +40,9 @@ def predictor(area, rooms, bathroom, parking_space, floor, animal, furniture, ho
         for value in applicationModelList:
             input += ';' + str(value)
 
-        print(f'\n\n[DEBUG] --- input: {input}\n\n')
-
         query_insert = f'''
             INSERT INTO log_api (inputs, date_started, date_finished, processing_time )
-            values ( {input}, {date_started}, {date_finished}, {processing_time} )
+            values ( '{input}', '{date_started}', '{date_finished}', '{processing_time}' )
         '''
 
         db = '../database/bd_api.db'
